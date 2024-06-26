@@ -1,0 +1,65 @@
+
+.subbutton{
+    background-color: rgb(250, 0, 0);
+    color: black;
+    border: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    transition: opacity 0.25s;
+    transform: box-shadow 0.15s;
+    vertical-align: top;
+}
+.subbutton:hover {
+    opacity: 0.8;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+
+
+
+}
+.subbutton:active {
+    opacity: 0.5;
+
+}
+.join{           
+    background-color: blanchedalmond;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    vertical-align: top;
+    border-color: black;
+    border-width: 1px;
+    color: black;
+    cursor: pointer;
+    border-radius: 2px;
+    vertical-align: top;
+    transition: background-color 1s;
+}
+
+.join:hover{
+
+    background-color: blue;
+    color: white;
+    
+}
+
+.join:active{
+    opacity: 0.7;
+}
+.Tweet{ background-color: blue;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    vertical-align: top;
+    border-color: black;
+    border-width: 1px;
+    color: black;
+    cursor: pointer;
+    margin: 8px ;
+
+}
+
