@@ -8,21 +8,64 @@
 }
 
 .lefthead{
-    background-color: lightgreen;
-    width: 150px;
+    display: flex;
+    align-items: center;
+    
 
 }
 
 .middlehead{
-    background-color: lightblue;
+    
     flex: 1;
+    display: flex;
     margin-left: 70px;
     margin-right: 35px;
     max-width: 500px;
+    align-items: center;
 
 }
 
 .righthead{
     background-color: blanchedalmond;
     width: 300px;
+    display: flex;
+    display: flex;
+    align-items: center;
+}
+.hamburgermenu{
+    height: 20px;
+    margin-left: 15px;
+    
+}
+
+.youtubelogo{
+    height: 20px;
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+.search-button{
+    height: 40px;
+    width: 60px;
+
+}
+
+.mic
+{
+    height: 40px;
+    width: 60px;
+}
+.search::placeholder{
+    font-size: 15px;
+    padding-left: 10px;
+    height: 34px;
+    border-style: solid;
+    border-radius: 2px;
+
+}
+
+
+.searchicon{
+    height: 36px;
+    width: 60px;
 }
