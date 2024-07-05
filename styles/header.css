@@ -1,8 +1,28 @@
 
-.search{
-    display: block;
-}
-
 .header{
     height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.lefthead{
+    background-color: lightgreen;
+    width: 150px;
+
+}
+
+.middlehead{
+    background-color: lightblue;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+
+}
+
+.righthead{
+    background-color: blanchedalmond;
+    width: 300px;
 }
