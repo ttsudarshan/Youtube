@@ -1,0 +1,45 @@
+
+.thumbnail {
+  width: 100%     
+}
+.videoauthor,
+.videostats{
+    display: block;
+
+}
+.channelpic{
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+}
+
+.video1info{
+    display: inline-block;
+    width: 200px;
+}
+.profilepic{
+    width: 40px;
+    border-radius: 50px;
+
+}
+.videotittle{
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20pxs;
+    margin-bottom: 12px;
+
+}
+.gridforall{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}
+
+.thumbnailrow {
+    margin-bottom: 12px
+}
+.videoauthor{
+    margin-bottom: 4px;
+}
