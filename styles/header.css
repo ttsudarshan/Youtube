@@ -26,11 +26,15 @@
 }
 
 .righthead{
-    background-color: blanchedalmond;
     width: 300px;
     display: flex;
     display: flex;
     align-items: center;
+    display: flexbox;
+    flex-direction: row;
+    align-items: center
+    justify-content: space-between;
+
 }
 .hamburgermenu{
     height: 20px;
@@ -45,27 +49,48 @@
 }
 
 .search-button{
-    height: 40px;
+    height: 25px;
     width: 60px;
+    border-radius: 0px;
 
 }
 
 .mic
 {
-    height: 40px;
-    width: 60px;
+    height: 25px;
+    width: 30px;
+    margin-right: 8px;
+    background-color: rgb(180, 180, 180);
+    border-radius: 20px;
 }
 .search::placeholder{
     font-size: 15px;
     padding-left: 10px;
     height: 34px;
     border-style: solid;
-    border-radius: 2px;
+    border-radius: 12px;
 
 }
 
 
 .searchicon{
-    height: 36px;
+    height: 25px;
     width: 60px;
+
+}
+
+.uploadicon{
+    height: 24px;
+}
+
+.notifications{
+    height: 24px;
+}
+.youtubeapps{
+    height: 24px;
+}
+
+.channelicon{
+    height: 24px
+    
 }
