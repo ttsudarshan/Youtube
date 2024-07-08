@@ -22,20 +22,20 @@
     margin-right: 35px;
     max-width: 500px;
     align-items: center;
-
 }
 
+
 .righthead{
-    width: 300px;
-    display: flex;
+    width: 150px;
     display: flex;
     align-items: center;
     display: flexbox;
-    flex-direction: row;
-    align-items: center
     justify-content: space-between;
-
+    align-items: center;
+    
 }
+
+
 .hamburgermenu{
     height: 20px;
     margin-left: 15px;
@@ -80,17 +80,18 @@
 }
 
 .uploadicon{
-    height: 24px;
+    height: 30px;
 }
 
 .notifications{
-    height: 24px;
+    height: 30px;
 }
 .youtubeapps{
-    height: 24px;
+    height: 30px;
 }
 
 .channelicon{
-    height: 24px
+    height: 30px;
+    border-radius: 12px;
     
 }
