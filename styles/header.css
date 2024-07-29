@@ -1,5 +1,7 @@
+/* header.css */
 
-.header{
+/* Existing styles */
+.header {
     height: 55px;
     display: flex;
     flex-direction: row;
@@ -13,18 +15,12 @@
     border-bottom-style: solid;
     border-bottom-color: grey;
     z-index: 100;
-
 }
-
-.lefthead{
+.lefthead {
     display: flex;
     align-items: center;
-    
-
 }
-
-.middlehead{
-    
+.middlehead {
     flex: 1;
     display: flex;
     margin-left: 70px;
@@ -32,76 +28,61 @@
     max-width: 500px;
     align-items: center;
 }
-
-
-.righthead{
+.righthead {
     width: 150px;
     display: flex;
     align-items: center;
-    display: flexbox;
     justify-content: space-between;
-    align-items: center;
     margin-right: 15px;
-    
 }
-
-
-.hamburgermenu{
+.hamburgermenu {
     height: 20px;
     margin-left: 15px;
-    
 }
-
-.youtubelogo{
+.youtubelogo {
     height: 20px;
     margin-left: 20px;
-    margin-right: 20px
+    margin-right: 20px;
 }
-
-.search-button{
+.search-button {
     height: 25px;
     width: 60px;
-
-
 }
-
-.mic
-{
+.mic {
     height: 25px;
     width: 30px;
     margin-right: 8px;
     background-color: rgb(180, 180, 180);
     border-radius: 20px;
 }
-.search::placeholder{
+.search::placeholder {
     font-size: 15px;
     padding-left: 10px;
     height: 34px;
     border-style: solid;
-
-
 }
-
-
-.searchicon{
+.searchicon {
     height: 25px;
     width: 60px;
-
 }
-
-.uploadicon{
+.uploadicon, .notifications, .youtubeapps, .channelicon {
     height: 30px;
 }
-
-.notifications{
-    height: 30px;
-}
-.youtubeapps{
-    height: 30px;
-}
-
-.channelicon{
-    height: 30px;
+.channelicon {
     border-radius: 12px;
-    
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .middlehead {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .righthead {
+        margin-right: 5px;
+        width: auto;
+    }
+    .search {
+        width: 100px;
+    }
 }

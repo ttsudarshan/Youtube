@@ -1,45 +1,87 @@
-
+/* Responsive styles for additional elements */
 .thumbnail {
-  width: 100%     
+    width: 100%;     
 }
-.videoauthor,
-.videostats{
-    display: block;
 
+.videoauthor,
+.videostats {
+    display: block;
 }
-.channelpic{
+
+.channelpic {
     display: inline-block;
     width: 50px;
     vertical-align: top;
 }
 
-.video1info{
+.video1info {
     display: inline-block;
     width: 200px;
 }
-.profilepic{
+
+.profilepic {
     width: 40px;
     border-radius: 50px;
-
 }
-.videotittle{
+
+.videotittle {
     margin-top: 0;
     font-size: 14px;
     font-weight: 500;
-    line-height: 20pxs;
+    line-height: 20px;
     margin-bottom: 12px;
-
 }
-.gridforall{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 16px;
-  row-gap: 40px;
+
+.gridforall {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
 }
 
 .thumbnailrow {
-    margin-bottom: 12px
+    margin-bottom: 12px;
 }
-.videoauthor{
+
+.videoauthor {
     margin-bottom: 4px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .gridforall {
+        grid-template-columns: 1fr 1fr;
+    }
+    .video1info {
+        width: auto;
+    }
+    .profilepic {
+        width: 35px;
+    }
+    .channelpic {
+        width: 40px;
+    }
+    .videotittle {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+}
+
+@media (max-width: 576px) {
+    .gridforall {
+        grid-template-columns: 1fr;
+    }
+    .video1info {
+        width: 100%;
+    }
+    .profilepic {
+        width: 30px;
+    }
+    .channelpic {
+        width: 30px;
+    }
+    .videotittle {
+        font-size: 10px;
+        margin-bottom: 6px;
+    }
 }

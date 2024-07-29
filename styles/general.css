@@ -1,21 +1,54 @@
+/* general.css */
+
+/* Existing styles */
 p {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Arial, Helvetica, sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Arial, Helvetica, sans-serif;
 }
-body{
-    margin: 0px;
-    padding-top: 70px;
-    padding-left:64px ;
-    padding-right: 24px;
-    background-color: whitesmoke;
+body {
+  margin: 0px;
+  padding-top: 70px;
+  padding-left: 64px;
+  padding-right: 24px;
+  background-color: whitesmoke;
 }
 a {
-    color: inherit; /* This will inherit the color from the parent element */
-    text-decoration: none; /* Optional: Removes the underline from the link */
+  color: inherit;
+  text-decoration: none;
+}
+.videotitle a {
+  color: black;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  body {
+      padding-left: 0;
+      padding-right: 0;
   }
-  
-  /* Optional: Explicitly define color for video titles */
-  .videotitle a {
-    color: black; /* Or any color you prefer */
+  .header, .sidebar {
+      position: relative;
   }
+  .sidebar {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      height: auto;
+  }
+  .gridforall {
+      padding-top: 100px;
+  }
+}
+@media (max-width: 576px) {
+  .middlehead {
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+  .righthead {
+      margin-right: 5px;
+  }
+  .search {
+      width: 100px;
+  }
+}
