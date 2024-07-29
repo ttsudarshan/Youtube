@@ -7,4 +7,15 @@ body{
     margin: 0px;
     padding-top: 70px;
     padding-left:64px ;
+    padding-right: 24px;
+    background-color: whitesmoke;
 }
+a {
+    color: inherit; /* This will inherit the color from the parent element */
+    text-decoration: none; /* Optional: Removes the underline from the link */
+  }
+  
+  /* Optional: Explicitly define color for video titles */
+  .videotitle a {
+    color: black; /* Or any color you prefer */
+  }

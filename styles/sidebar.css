@@ -1,9 +1,39 @@
 .sidebar{
-background-color: green;
 color: white;
 position: fixed;
 top: 50px;
 left: 0;
 bottom:0;
-width: 64px;
+width: 70px;
+background-color: white;
+z-index: 200;
+padding-top: 5px ;
 }
+
+
+
+.sidebar-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 76px;
+    flex-direction: column;
+}
+
+.sidebar-link:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.sidebar-link img{
+    height: 30px;
+    margin-bottom: 2px;
+}
+.sidebar-link div{
+    color: black;
+    font-size: 12px;
+    
+}
+
+
+
